@@ -32630,7 +32630,7 @@ if(!A.cE(a.i(0,"isIllust")))A.u(A.a_("Expected boolean for background.isIllust",
 A.cG(a,"displayName","background.displayName")
 return new A.IL(p,s,r)},
 aRE(a,b){var s=!0
-if(a.length!==0)if(new A.ru(a).gF(0)<=64)if(a!==".")if(a!=="..")if(!B.c.m(a,"/"))if(!B.c.m(a,"\\")){s=A.bJ("[\\u0000-\\u001f\\u007f]",!0,!1)
+if(a.length!==0)if(new A.ru(a).gF(0)<=64)if(a!==".")if(a!=="..")if(!B.c.m(a,"/"))if(!B.c.m(a,"\\")){s=A.bJ("[\\u0000-\\u001f\\u007f-\\u009f]",!0,!1)
 s=s.b.test(a)}if(s)throw A.i(A.di(a,b,"Must be one safe path segment"))
 return A.E4(2,a,B.a8,!1)},
 b48(a,b){if(a.goE()<0||a.goE()>9999)throw A.i(A.di(a,b,"Year must be from 0 through 9999"))
